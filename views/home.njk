@@ -1,0 +1,14 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+    <title>Home</title>
+{% endblock %}
+
+{% block content %}
+    {% include "partials/hero.njk" %}
+    {% include "partials/features.njk" %}
+    {% include "partials/album.njk" %}
+
+    {% include "partials/pricing.njk" %}
+
+{% endblock %}
